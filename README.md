@@ -20,8 +20,8 @@ Fuerza de la contraseña esta evaluado ein términos de [entropy](https://en.wik
 
 ~~~
 let password = passwordField.text ?? ""
-let strength = Navajo.strength(ofPassword: password) 
-strengthLabel.text = Navajo.localizedString(forStrength: strength)
+let strength = Vera.strength(ofPassword: password) 
+strengthLabel.text = Vera.localizedString(forStrength: strength)
 ~~~
 
 * Validación de contraseña
